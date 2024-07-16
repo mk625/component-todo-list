@@ -1,0 +1,29 @@
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #0C91E5, #22DFFA);
+}
+
+.todolist-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px 30px;
+    background: radial-gradient(at left top, #015B94, #013C44);
+    border-radius: 10px;
+}
+
+.todo-heading {
+    margin-bottom: 20px;
+}
+
+.todo-title {
+    font-size: 20px;
+    color: white;
+}
+
+
