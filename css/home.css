@@ -17,13 +17,42 @@
     border-radius: 10px;
 }
 
-.todo-heading {
-    margin-bottom: 20px;
-}
-
 .todo-title {
     font-size: 20px;
     color: white;
 }
 
+.todo-input-container {
+    padding: 15px;
+    background-color:  #5f7579;
+    border-radius: 8px;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.todo-btn {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+textarea.form-input {
+    resize: none;
+}
+
+.todo-btn:hover {
+    background-color: #000000;
+}
 
