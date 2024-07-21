@@ -56,3 +56,5 @@ textarea.form-input {
     background-color: #000000;
 }
 
+.todo-lists { color: #fff; border: 1px solid gray; padding: 20px; border-radius: 8px; }
+
